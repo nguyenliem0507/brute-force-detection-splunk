@@ -9,7 +9,7 @@ app.secret_key = "secretkey"
 USERNAME = "admin"
 PASSWORD = "liem0507z"
 
-# tạo file csv + header nếu chưa tồn tại
+# Create a CSV file + headers if the file does not already exist.
 if not os.path.exists("login.csv"):
     with open("login.csv", "w") as f:
         f.write("time,ip,user,status,code\n")
