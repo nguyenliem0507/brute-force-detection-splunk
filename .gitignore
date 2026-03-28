@@ -1,0 +1,15 @@
+# Log files
+login.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.env
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
